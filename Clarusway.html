@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clarusway.css">
+</head>
+<body>
+    <div id="form-container">
+        <header id="form-header">
+          <h1 id="form-title"><hr>Clarusway Surcey Form</span></h1>
+          <h3 id="form-description">
+            Thank you for taking the time to help us improve the platform.
+          </h3>
+        </header>
+        <section id="otur">
+            <div id="survey-form">
+                <form action="result.html" method="GET" target="_blank">
+                    <div class="name">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="Kullanıcı adı" placeholder="İsmini Giriniz..">
+
+                    </div>
+                    <div class="name">
+                        <label for="Surname">Surname</label><br>
+                        <input type="text" id="Surname" name="Kullanıcı adı" placeholder="Soyisminizi Giriniz..">
+                    </div>
+                    <div class="box">
+                        <label for="email">Email</label><br />
+                        <input
+                          type="email"
+                          name="Kullanıcı Maili"
+                          id="email"
+                          placeholder="user@clarusway.com"
+                        />
+                      </div>
+                      <div class="box">
+                         <p>Which option best describes your current role?</p> 
+                        <label for="tur"></label><br />
+                        <select name="content" id="tur">
+                          <option value="Scrum Master">Scrum Master</option>
+                          <option value="Produktor">Produktur</option>
+                          <option value="Yönetici">Yönetici</option>
+                        </select>
+                      </div>
+                      <div class="box">
+                        <p>Would you recommend Clarusway to a friend?</p>
+                        <label></label>
+                        <br />
+                        <input type="radio" name="Yes" id="yes" value="Definitely,Yes" checked />
+                        <label for="yes">Definitely,Yes</label><br />
+                        <input type="radio" name="maybe" id="maybe" value="Maybe" />
+                        <label for="maybe">Maybe</label><br />
+                        <input
+                          type="radio"
+                          name="Notsure"
+                          id="notsure"
+                          value="Notsure"
+                          
+                        />
+                        <label for="notsure">Not sure</label><br>
+                        <input type="radio" name="Yes" id="no" value="Definitely,Yes" />
+                        <label for="no">Definitely,No</label><br />
+                      </div>
+                      <div class="box">
+                        <p>What is your favorite feature of Clarusway?</p> 
+                       <label for="tur"></label><br />
+                       <select name="content" id="tur">
+                         <option value="Scrum Master">Scrum Master</option>
+                         <option value="Produktor">Produktur</option>
+                         <option value="Yönetici">Yönetici</option>
+                       </select>
+                     </div>
+                </form>
+
+            </div>
+
+        </section>
+</body>
+</html>
